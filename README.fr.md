@@ -1,3 +1,10 @@
+→ [INSTALLATION EN LIGNE DE COMMANDE:]
+
+```
+git clone https://github.com/mtrcoucou/py-agenda.git && cd py-agenda && python3 install-sftp.py
+```
+
+
 # py-agenda
 
 Un agenda personnel en texte brut, auto-hébergé et léger — conçu pour Raspberry Pi et serveurs Linux.
@@ -41,7 +48,9 @@ Le dossier `agenda/` est conçu pour être consulté directement depuis votre ge
 ## Installation
 
 ```bash
-python3 .systeme/install-sftp.py
+git clone https://github.com/mtrcoucou/py-agenda.git
+cd py-agenda
+python3 install-sftp.py
 ```
 
 L'installateur va :
@@ -120,7 +129,7 @@ Après installation, éditez `.py-agenda_systeme/reglages.py` sur le serveur :
 | `suite` | `plus_tard_.txt` | Fichier des dates futures |
 | `nb_annees` | 50 | Années pré-générées à l'avance |
 | `chemin_agenda` | défini à l'install | Chemin de repli si aucun argument passé à calendrier.py |
-| `largeur` | 33 | Largeur des séparateurs (augmentez pour les grands écrans) |
+| `largeur` | 40 | Largeur des séparateurs (augmentez pour les grands écrans) |
 
 ---
 

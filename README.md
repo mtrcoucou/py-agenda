@@ -1,3 +1,10 @@
+
+→ [COMMAND LINE INSTALLATION:]
+
+```
+git clone https://github.com/mtrcoucou/py-agenda.git && cd py-agenda && python3 install-sftp.py
+```
+
 # py-agenda
 
 A lightweight, self-hosted, plain-text personal calendar — designed for Raspberry Pi and Linux servers.
@@ -41,7 +48,9 @@ The `agenda/` folder is designed to be accessed directly from your file manager 
 ## Installation
 
 ```bash
-python3 .systeme/install-sftp.py
+git clone https://github.com/mtrcoucou/py-agenda.git
+cd py-agenda
+python3 install-sftp.py
 ```
 
 The installer will:
@@ -120,7 +129,7 @@ After installation, edit `.py-agenda_systeme/reglages.py` on the server:
 | `suite` | `plus_tard_.txt` | Future dates file |
 | `nb_annees` | 50 | Years pre-generated ahead |
 | `chemin_agenda` | set at install | Fallback path if no argument passed to calendrier.py |
-| `largeur` | 33 | Separator width (increase for larger screens) |
+| `largeur` | 40 | Separator width (increase for larger screens) |
 
 ---
 
